@@ -89,12 +89,22 @@
     <QtRcc Include="GameOfLife.qrc" />
     <QtUic Include="GameOfLife.ui" />
     <QtMoc Include="GameOfLife.h" />
+    <ClCompile Include="Cell.cpp" />
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="GameOfLife.cpp" />
+    <ClCompile Include="GameScene.cpp" />
+    <ClCompile Include="GameView.cpp" />
     <ClCompile Include="GraphicsView.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="GraphicsView.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cell.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameScene.h" />
+    <QtMoc Include="GameView.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
