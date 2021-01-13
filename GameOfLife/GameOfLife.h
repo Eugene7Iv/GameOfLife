@@ -2,6 +2,7 @@
 
 #include <QtWidgets/QWidget>
 #include "ui_GameOfLife.h"
+#include "Game.h"
 
 class GameOfLife : public QWidget
 {
@@ -12,4 +13,6 @@ public:
 
 private:
     Ui::GameOfLifeClass ui;
+
+	Game* game;
 };

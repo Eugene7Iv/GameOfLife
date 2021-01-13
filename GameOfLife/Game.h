@@ -2,9 +2,7 @@
 #include <vector>
 #include <memory>
 #include "Cell.h"
-#include "GameOfLife.h"
 
-//using GameFieldPtr = std::vector<std::vector<std::shared_ptr<Cell>>*>*;
 using namespace std;
 
 class Game
